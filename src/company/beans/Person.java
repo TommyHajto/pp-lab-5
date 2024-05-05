@@ -32,4 +32,8 @@ public class Person {
         }
         this.age = age;
     }
+
+    public void sendMessage(String message) {
+        System.out.println("Message sent by " + name + ": " + message);
+    }
 }
