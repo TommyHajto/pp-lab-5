@@ -11,11 +11,11 @@ public class Main {
         final int b = 10;
 
         try {
-            people[0] = new Person("John Doe", 30);
-            people[1] = new Person("Alice Smith", 25);
-            people[2] = new Person("Bob Johnson", 40);
-            people[3] = new Person("Emily Brown", 35);
-            people[4] = new Person("David Wilson", 28);
+            people[0] = new Person("Tommy Hajto", 30);
+            people[1] = new Person("Robert Hajto", 25);
+            people[2] = new Person("Bob Hajto", 40);
+            people[3] = new Person("Dwayn Johnson", 35);
+            people[4] = new Person("Andrzej Nerwowy", 28);
         } catch (InvalidAgeException e) {
             System.out.println("Invalid age: " + e.getMessage());
         }
